@@ -1,0 +1,27 @@
+body > canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+#lead-overlay{
+    background: url('../images/project-info.jpg');
+    opacity: 0.1;
+    border-bottom: 1px solid black;
+
+}
+header ul{
+    border: 1px solid #15AABF;
+}
+.subdescp{
+    padding-top: 1%;
+    background: #dcdcdc;
+}
+img{
+    max-width: 100%;
+    padding: 10px;
+}
+video{
+    width: 100%;
+    max-width: 100%;;
+}
