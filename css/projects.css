@@ -13,9 +13,22 @@ body > canvas {
 header ul{
     border: 1px solid #15AABF;
 }
-.subdescp{
+.subdescp {
     padding-top: 1%;
-    background: #dcdcdc;
+    background: rgba(0,0,0,0.05);
+    padding-bottom: 10px;
+}
+.subdescp .col-md-4{
+    border: 1px solid #15AABF;
+    border-radius: 10px;
+    background:white;
+}
+
+.subdescp .col-md-4 .heading{
+    font-size: 1.5em;
+    width: 100%;
+    text-align: center;
+    margin: 10px 0 20px 0;
 }
 img{
     max-width: 100%;
@@ -24,4 +37,47 @@ img{
 video{
     width: 100%;
     max-width: 100%;;
+}
+.soln-img{
+    width: 89%;
+}
+.soln-img1{
+    width: 97%;
+}
+
+.user-research{
+    padding-top: 1%;
+    padding-bottom: 10px;
+}
+.user-research .col-md-8{ 
+    border: 1px solid #15AABF;
+    border-radius: 10px;
+    background:white;
+}
+.user-research .col-md-4{ 
+    border: 1px solid #15AABF;
+    border-radius: 10px;
+    background:white;
+}
+.col-md-8 .heading{
+    font-size: 1.5em;
+    width: 100%;
+    text-align: center;
+    margin: 10px 0 20px 0;
+}
+.user-research .col-md-4 .heading{ 
+    font-size: 1.5em;
+    width: 100%;
+    text-align: center;
+    margin: 10px 0 20px 0;
+}
+.user-flow{
+    padding-top: 1%;
+    background: rgba(0,0,0,0.05);
+    padding-bottom: 10px;
+}
+.user-flow .col-md-12{ 
+    border: 1px solid #15AABF;
+    border-radius: 10px;
+    background:white;
 }
