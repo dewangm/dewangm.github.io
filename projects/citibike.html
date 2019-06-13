@@ -37,9 +37,8 @@
             <!-- End header -->
             <div id="lead">
                 <div id="lead-content">
-                    <video width="820" height="540" autoplay>
-                    <source src="../videos/seidenbergapp.mov">
-                    </video>
+                    <h1 style="color: #15AABF;">Citi Bike</h1>
+                    <h3 style="color: #15AABF;">Data Warehousing, Data Mining and Visualization</h3>
                 </div>
                 <!-- End #lead-content -->
         
@@ -58,20 +57,48 @@
                     <div class="row">
                         <div class="col-md-12">
                             <h2 class="heading">Project Overview</h2>
-                            <p>Student who are studying in Seidenberg college are mostly unaware of the events and other social activites going on in the college, as there are no centralized social app/platforms which helps students be aware of events and form a social bond with other students, faculty.</p>
-                            <h4 >Problem Statement:</h4>
-                            <p>The students do not feel they are part of the Seidenberg community because of poor social connections.</p>
-                            <h4>Goal:</h4>
-                            <p>To create an app to bring every Seidenberg student closer to create community.</p>
+                            <p>Primary aim of the project was to improve the utilization of Citibike in Jersey City by studying the data of customers in Jersey City. We wanted to address basic questions like Which stations has maximum usage? Which age group are maximum users of city bike? Which day of the week has maximum city bike users? and based on questions like these derive which stations should be improvised. </p>
                             <h4>Team:</h4>
                             <span>👨🏻‍💻Dewang Mehta &nbsp;&nbsp;👨🏻‍💻Shruti Shah &nbsp;&nbsp;👨🏻‍💻Hanish Khartri &nbsp;&nbsp;👨🏻‍💻Yash Shah</span>
                             <h4>Contribution:</h4>
-                            <p>During the Research Phase, semi-structured interviews with potential users and students. During the ideation phase, three of my feature ideas were considered and prototyped. I then advocated for collecting user feedback, which helped us narrow our ideas down and also come up with scenarios. I contributed to the information architecture design, and was responsible for creating the inital paper prototypes. I then created the user-flow of the app and an high fidelity interactive prototype using Sketch.</p>
+                            <p>I was responsible for identifying Categorical Values for the data which were to derive important conclusions in analysis, also was responsible for writing the code in R language to derive the charts and other calculations.</p>
                         </div>   
                     </div>
                 </div>
             </div>
+            <div class="cleaning">
+                <div class="container">
+                    <h4 class="heading">Cleaning Data and Identifying Variables</h4>
+                    <p>In this study, we consider Jersey bike sharing data. The details of every rides by a bike in the bike sharing system is recorded by the docking stations, cleansed, centralized, and made available to the public. Our particular focus for this study is all rides for the month October to December 2017 and January to March 2018 was taken. This additional information, mainly gender and date of birth is captured at the time of registration by the subscribers and is provided by the subscriber. </p>
+                    <p>After cleaning of data we wanted to explore the relation between the age of the rider and the ride duration in minutes, which were both are numerical</p>
+                    <p>The other categorical values which were critical were start time, start hours, stop time of the trip, start time of the day, start station name, start station latitude, start station longitude, end.station.name, end station latitude, end station longitude and user type</p>
+                </div>
+            </div>
 
+            <div class="explore">
+                <div class="container">
+                    <h4 class="heading"> Analysis</h4>
+                    <p>After cleaning of data we carried out exploratory analysis, first we calculated the age of the user’s using citibike and found user’s with age of 32 had used most of the rides.We also analyzed which age group uses the more number of city bikes in Jersey City.</p>
+                    <div class="col-md-12">
+                        <div class="col-md-6">
+                            <img class="img-box" src="../images/explore1.png" alt="">
+                        </div>
+                        <div class="col-md-6">
+                                <img class="img-box" src="../images/explore2.png" alt="">
+                        </div>
+                    </div>
+                    <p>Next, we calculated which gender uses more city bike. And the results indicated that Male were more into Citi bike than female. In particular, over 79% of users were men, about 20% were women.</p>
+                        <img class="img-box" src="../images/age.png" alt="">
+                    <p>Next, we calculated maximum number of trips taken on which day. Most number of trip were taken on Tuesday, followed by Wednesday and Monday. Trips during the weekend were much less than during the week days.</p>
+                        <img class="img-box" src="../images/explore3.png" alt="">
+                    <p>Interestingly, the customer users have slightly more usage of citi bike on weekend than on weekdays. It is important to remember that the customer were those who purchase a 24hours or 7-day pass and Subscriber were annual membership. It seems that the customer were tourist people which uses citi bike on Weekend to visit some places.</p>
+                        <img class="img-box" src="../images/explore4.png" alt="">
+                    <p>Finally, it was observed that there were more number of trips from Hamilton park station to Grove Station.</p>
+                        <img class="img-box" src="../images/explore5.png" alt="">
+                    <h4 >Conclusion:</h4>
+                    <p>Upon further analysis we found out the reason for increase in use of bikes between Hamilton and Grove was due to peak office hours and Grove PATH station, a easy transport to reach New York for office. Hence these two stations should and balanced by adding new citi bike stations with larger bike capacities.</p>
+                </div>
+            </div>
 
             <footer>
                     <div class="container">

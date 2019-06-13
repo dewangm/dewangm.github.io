@@ -108,3 +108,9 @@ video{
     border-radius: 10px;
     background:white;  
 }
+
+.img-box{
+    border: 1px solid #15AABF;
+    border-radius: 10px;
+    background:white;
+}
